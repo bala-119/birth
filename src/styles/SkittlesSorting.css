@@ -1,0 +1,67 @@
+/* src/styles/SkittlesSorting.css */
+
+.skittles-sorting {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.message-box {
+  margin: 15px;
+  padding: 10px;
+  font-size: 1.1rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.skittles {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.skittle-button {
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.skittle-button:hover {
+  transform: scale(1.1);
+}
+
+.skittle-button.selected {
+  outline: 3px solid white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.bins {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.bin {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.bin:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
