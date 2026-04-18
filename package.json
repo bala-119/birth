@@ -2,7 +2,7 @@
   "name": "interactive-proposal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/bala-119/birth.git",
+  "homepage": "https://bala-119.github.io/birth",
   "dependencies": {
     "cra-template": "1.2.0",
     "framer-motion": "^12.4.1",
