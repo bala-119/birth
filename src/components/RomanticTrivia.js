@@ -6,20 +6,42 @@ import GrandReveal from "./GrandReveal";
 function RomanticTrivia({ onComplete, setRoses }) {
   const questions = [
     {
-      question: "When is our anniversary?",
-      options: ["April 15", "May 10", "June 21"],
-      answer: "May 10",
+      question: "Who's will you hang out with?",
+      options: ["Richard Ramirez", "Bala", "Prasanna"],
+      answer: ["Richard Ramirez","Bala"]
     },
     {
-      question: "Where was our first date?",
-      options: ["Sushi Row", "Everest Nepal", "Pho N Thai"],
-      answer: "Sushi Row",
+      question: "Will ou get me a Boba ?",
+      options: ["Yes","Off COurse"],
+      answer: ["Yes","Off Course"]
     },
+    {
+      question: "When was our first Hang out?",
+      options: ["March 13", "March 14", "March 15"],
+      answer: "March 13",
+    },
+     {
+      question: "What was I wearing the first time we met",
+      options: ["I Know","Napagam illa da😅"],
+      answer: "I Know",
+    },
+    {
+      question: "What is the smallest thing I do that makes you secretly happy",
+      options: ["There is","Nope☹️"],
+      answer: "I Know",
+    },
+     {
+      question:
+        "If our relationship were a movie, what would its title be ?",
+      options: ["Oh My Kadavulae","Priyamaana Thozhi","Something Else" ],
+      answer: ["Oh My Kadavulae", "Something Else"],
+    },
+    
     {
       question:
-        "Do you know we would have a baby by now if we had fun on the first day?",
-      options: ["Yes", "No", "I can't believe it's been 9 months"],
-      answer: ["Yes", "I can't believe it's been 9 months"],
+        "Do you like spending time with me ?",
+      options: ["Yes", "No", "can't discloure"],
+      answer: ["Yes", "Can't discloure"],
     },
   ];
 
